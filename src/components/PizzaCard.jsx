@@ -5,7 +5,7 @@ import { Card, Button, Badge} from 'react-bootstrap';
 
 function PizzaCard ({data}) {
     return(
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem', height: '28rem'}}>
         <Card.Img variant="top" src={data.image} />
         <Card.Body className="d-flex flex-column">
           <div className="d-flex mb-2 justify-content-between">
@@ -19,7 +19,8 @@ function PizzaCard ({data}) {
           <Card.Text className="text-center">
             {data.desc}
           </Card.Text>
-          <Button variant="success">Заказать🍕</Button>
+          <Button className="mb-auto" variant="success">Заказать🍕</Button>
+          
         </Card.Body>
       </Card>
     );
