@@ -1,0 +1,49 @@
+[
+    {
+        "id":1,
+        "name": "Lamore",
+        "image": "https://pizzalife.ua/assets/cache_image/files/images/87/2/pizza-delmore_1000x0_fdf.jpg",
+        "desc": "Фирменный пицца-соус, сыр Моцарелла , мидии, морской коктейль, креветки , мясо краба, сыр Эменталлер, лимон, базилик, орегано, зелень",
+        "price": 85
+
+    },
+    {
+        "id":2,
+        "name": "Sicilia",
+        "image": "https://pizzalife.ua/assets/cache_image/files/images/113/2/pizza-siciliyskaya_1000x0_fdf.jpg",
+        "desc": "Фирменный пицца соус, сыр Моцарелла, телятина, помидоры, сладкий перец, маслины, базилик, орегано",
+        "price": 75
+    },
+    {
+        "id":3,
+        "name": "Marinara",
+        "image": "https://pizzalife.ua/assets/cache_image/files/images/34/2/pizza-marinara_1000x0_fdf.jpg",
+        "desc": "Фирменный пицца соус из томатов/сливочный соус на выбор, сыр моцарелла, пармезан, креветки, мидии, кальмар, лимон, базилик, орегано",
+        "price": 78
+
+    },
+    {
+        "id":4,
+        "name": "Toscana",
+        "image": "https://pizzalife.ua/assets/cache_image/files/images/63/2/pizza-toskana_1000x0_fdf.jpg",
+        "desc": "Фирменный пицца-соус, сыр «Моцарелла», ветчина, бекон, салями-пеперони , сладкий перец, сыр «Пармезан», базилик, орегано",
+        "price": 80
+    },
+    {
+        "id":5,
+        "name": "Florencia",
+        "image": "https://pizzalife.ua/assets/cache_image/files/images/38/2/pizza-florenciya_1000x0_fdf.jpg",
+        "desc": "Фирменный пицца-соус, сыр Моцарелла , мидии, морской коктейль, креветки , мясо краба, сыр Эменталлер, лимон, базилик, орегано, зелень",
+        "price": 90
+
+    },
+    {
+        "id":6,
+        "name": "Livorno",
+        "image": "https://pizzalife.ua/assets/cache_image/files/images/96/2/pizza-livorno_1000x0_fdf.jpg",
+        "desc": "Соус Цезарь,сыр Моцарелла, куриная грудка, шампиньоны, помидор, зелень",
+        "price": 83
+
+    }
+
+]

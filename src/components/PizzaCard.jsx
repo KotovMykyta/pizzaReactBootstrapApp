@@ -3,26 +3,24 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Card, Button, Badge} from 'react-bootstrap';
 
-function PizzaCard () {
+function PizzaCard ({data}) {
     return(
         <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src= {require('../img/Peperoni.jpg')} />
+        <Card.Img variant="top" src={data.image} />
         <Card.Body className="d-flex flex-column">
           <div className="d-flex mb-2 justify-content-between">
-            <Card.Title className="mb-0 font-weight-bold">Peperoni</Card.Title>
-            <Badge pill variant="warning" style={{ fontSize: 16 }}>₴ 81</Badge>
+            <Card.Title className="mb-0 font-weight-bold">
+              {data.name}
+            </Card.Title>
+            <Badge pill variant="warning" style={{ fontSize: 16 }}>
+              ₴{data.price}
+            </Badge>
           </div>
           <Card.Text className="text-center">
-            Тесто, соус «Неаполитано», лук репчатый, 
-            перец болгарский, перчики халапенью, пепперони, 
-            сыр «Моцарелла», сыр «Филадельфия», орегано.
+            {data.desc}
           </Card.Text>
-          
-          
           <Button variant="success">Заказать🍕</Button>
-
         </Card.Body>
-        
       </Card>
     );
 }
